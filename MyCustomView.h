@@ -12,8 +12,13 @@
 {
 	CGFloat                    squareSize;
 	CGFloat                    rotation;
+	CGFloat                    rotationR;
+	CGFloat                    rotationL;
 	CGColorRef                 aColor;
+	BOOL                       oneFinger;
 	BOOL                       twoFingers;
+	BOOL                       rotateR;
+	BOOL                       rotateL;
 	
 	IBOutlet UILabel           *xField;
 	IBOutlet UILabel           *yField;
